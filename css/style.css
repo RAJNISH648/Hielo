@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header */
+
+.header-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/slide01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.nav h4{
+    float: left;
+    font-weight: 400;
+    margin-left: 30px;
+    
+    
+}
+
+.nav h5{
+    float: right;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.nav .light-text{
+    font-weight: 200;
+    font-size: 13px;
+}
+.nav span{
+    padding-right: 10px;
+}
+
+/* Navigation ends */
+
+/* Banner start */
+
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.banner-text hr{
+    width: 50%;
+
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 2px;
+
+}
+.banner-text h1{
+    font-size: 100px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+/* Banner ends */
+
+
+
+/* two section start */
+
+.full-wrapper{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #dfdf;
+
+}
+.full-wrapper .fixed-width{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.two-section .fixed-width .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.two-section .fixed-width .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.two-section img{
+    width: 100%;
+
+}
+.two-section h6{
+    letter-spacing: 3px;
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: grey;
+    height: 0.5px;
+    background-color: grey;
+    border: none;
+}
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+
+}
+.align-left {
+    text-align: left;
+    padding: 0  30px;
+    font-size: 15px;
+    color: grey;
+}
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    border: 2px solid grey;
+
+
+}
+/* two section ends */
+
+/* Quote starts starts */
+
+.full-quote{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.full-quote p, .four-image-section p {
+    letter-spacing: 4px;
+    font-size: 13px;
+
+}
+.full-quote hr, .four-image-section hr{
+    width: 35%;
+
+
+}
+.full-quote h5 , .four-image-section h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+
+    
+}
+/* Quote ends */
+
+/* four images start */
+
+.four-images img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+
+}
+.four-images .left{
+    margin-left: 5%;
+}
+
+/* four images ends */
+
+/* footer starts here */
+
+.footer-full{
+    background-color: #000;
+    color: grey;
+
+}
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer .fa{
+   font-size: 25px;
+   padding: 10px;
+}
+
+/* footer ends here*/
+
+/* media querry starts */
+
+@media only screen and (max-width:900px){
+    
+  .banner-text h1{
+    font-size: 80px ;
+}
+
+.two-section .fixed-width .left{
+    width: 100%;
+    padding-bottom: 50px;
+
+
+}
+
+.two-section .fixed-width .right{
+     width: 100%;
+     padding-bottom: 50px;
+}
+.four-images img{
+    width: 100%;
+    clear: both;
+  
+
+}
+.four-images .left{
+    margin-left: 0;
+
+}
+
+}
+
+@media only screen and (max-width:600px){
+        
+    
+.full-quote p, .four-image-section p {
+    letter-spacing: 3px;
+    font-size: 10px;
+
+}
+.full-quote hr, .four-image-section hr{
+    width: 60%;
+
+
+}
+.full-quote h5 , .four-image-section h5{
+    font-size: 20px;
+    
+
+    
+}
+
+}
+
+/* media querry ends */
+
+
+
